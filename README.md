@@ -1,4 +1,0 @@
-hirejonb
-========
-
-my resume site
