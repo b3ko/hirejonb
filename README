@@ -9,3 +9,14 @@ So far i have:
  used PHP to dynamically highlight the current page's nav bar tab
  gotten place holders into each page.
  
+to do:
+	add actual job descriptions and other text
+	update fonts
+	fix formatting
+	check spelling, etc
+	
+	debate internally about layout....do i want to:
+		remove "home" page, 
+		get rid of contact page and leave on nav bar only, 
+		move "contact" into "more..." tab,
+		having skill page and key skills in resume seems redundant, remove one?
