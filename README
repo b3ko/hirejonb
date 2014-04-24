@@ -1,0 +1,11 @@
+This is my resume site.
+Still very much a work in progress.
+
+So far i have:
+ gotten a basic template started using bootstrap
+ set up header and footer PHP pages to use as master pages
+ set up a 404 and a 403 redirect
+ used PHP to dynamically set the current page's title
+ used PHP to dynamically highlight the current page's nav bar tab
+ gotten place holders into each page.
+ 
