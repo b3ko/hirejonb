@@ -14,13 +14,13 @@ echo <<<_END
 		</br>
 			<blockquote class="well">
 				<p>
-					"Jon has been invaluable to staff members that have questions, to me when we design new systems and make sure we 
-					learn from our past mistakes as well as to all of our developers and support team in India who often rely heavily on 
-					him to help, clarify and come up with the best way of implementing something whether that be a bug fix or a complex 
+					"Jon has been invaluable to staff members that have questions, to me by making sure we learn from our past mistakes
+					when designing new systems, and to all of our developers and support team in India who often rely heavily on 
+					him to help, clarify, and come up with the best way of implementing something, whether it be a bug fix or a complex 
 					report."
 				</p>
 				<footer>
-					Ines Cortes, Business Analyst, Cultural Care Au Pair
+					Ines Cortes, Director of Business Analysis, Cultural Care Au Pair
 				</footer>
 			</blockquote>
 
@@ -28,7 +28,7 @@ echo <<<_END
 			<blockquote class="well">
 				<p>
 					"I can't count the number of times that a request or problem has surfaced and not only has Jon fixed that one issue, 
-					but always follows through to think if there are after-effects or related issues that need investigation too. Taking 
+					but always follows through to consider if there are after-effects or related issues that need investigation too. Taking 
 					this extra step (sometimes multiple steps) has been instrumental in making our users happy and appreciative of Jon's 
 					hard work and dedication."
 				</p>
@@ -40,10 +40,10 @@ echo <<<_END
 			<blockquote class="well">
 				<p>
 					"Jon Berkowitz has been a colleague of mine for the past 7 years; not only have we worked on several projects over the 
-					years together, but Jon has always been my go-to guy for just about everything, whether it related to his work or not. 
-					Jon has an innate ability to proactively contemplate all scenarios that might effect a given project and not just consider 
-					the "happy-path". This without doubt has saved many people many hours of future troubleshooting. Jon's dedication and 
-					desire to help someone understand the "why" behind things also make him not just an invaluable resource but a teacher. 
+					years together, but Jon has always been my go-to guy for just about everything, whether it is directly related to his work 
+					or not. Jon has an innate ability to proactively contemplate all scenarios that might affect a given project and not just 
+					consider the "happy-path". This without doubt has saved many people many hours of future troubleshooting. Jon's dedication 
+					and desire to help someone understand the "why" behind things also make him not just an invaluable resource but a teacher. 
 					He will truly be missed."
 				</p>
 				<footer>
@@ -78,7 +78,7 @@ echo <<<_END
 					and he is certainly one of the biggest and loudest advocate for that on our team."
 				</p>
 				<footer>
-					Ines Cortes, Business Analyst, Cultural Care Au Pair
+					Ines Cortes, Director of Business Analysis, Cultural Care Au Pair
 				</footer>
 			</blockquote>
 			
@@ -87,7 +87,7 @@ echo <<<_END
 					"Eat. Then work. I.....LIKE IT!!!"
 				</p>
 				<footer>
-					William Schatner, Minutes before eating my lunch
+					William Shatner, Minutes before eating my lunch
 				</footer>
 			</blockquote>
 
