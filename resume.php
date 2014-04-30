@@ -102,24 +102,23 @@ echo <<<_END
 				<h3 class="text-center">EDUCATION</h3>
 				<dl>
 					<dt>Elastic Search, New York, NY</dt>
-					<dd>Elastic Search Core Training</dd>
+					<dd>Elastic Search Core Training, 2013</dd>
 				</dl>
 				<dl>
 					<dt>ONLC Training Center</dt>
-					<dd>Developing Web Applications with Microsoft Visual Studio 2010</dd>
+					<dd>Developing Web Applications with Microsoft Visual Studio 2010, 2011 [<a href="/img/ONLCCertificate.pdf" target="_blank">Certificate</a>]</dd>
 				</dl>
 				<dl>
 					<dt>Bunker Hill Community college, Charlestown, MA</dt>
 					<ul>
-						<li>CIT239 - JAVA Programming</li>
-						<li>CIT520 - Introduction to Computer Science and Object Oriented Programming</li>
-						<li>CIT501 - Introduction to C++</li>
+						<li>CIT520 - Introduction to Computer Science and Object Oriented Programming, 2007</li>
+						<li>CIT501 - Introduction to C++, 2006</li>
 					</ul>
 				</dl>
 				
 				<dl>
 					<dt>Berklee College of Music, Boston, MA</dt>
-					<dd>Batchelor of Arts in Music Production and Engineering</dd>
+					<dd>Bachelor of Arts in Music Production and Engineering, 1997</dd>
 				</dl>
 			</div>
 			<div>
