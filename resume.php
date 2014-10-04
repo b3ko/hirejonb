@@ -1,144 +1,237 @@
 <?php
-$pageTitle = 'Resum&eacute;';
+$pageTitle = 'Jon Berkowitz - Resume';
 $resume = 'active';
-require "header.php";
+
 echo <<<_END
-    <div class="container">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="img/favicon.jpg">
 
-      <!-- Main component for a primary marketing message or call to action -->
-     
-        <div class="well">
-			<div class="well">
-				<h2 class="text-center">Jon Berkowitz</h2>
+    <title>Resum&eacute;</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="dist/css/navbar-fixed-top.css" rel="stylesheet">
+	<!--<link rel="stylesheet" href="dist/tablesorter/css/theme.bootstrap.css">-->
+	
+	
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script type="text/javascript" src="/dist/tablesorter/js/jquery.tablesorter.js"></script>
+	
+	
+  </head>
+
+  <body class="resume">
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="hire.php">Hire Jon B</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class=$resume><a href="resume.php">Resum&eacute;</a></li>
+			<li class="dropdown $dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">About me<b class="caret"></b></a>
+			  <ul class="dropdown-menu">
+				<li><a href="skills.php">Skills</a></li>
+				<li><a href="quotes.php">Quotes</a></li>
+				<li><a href="contact.php">Contact</a></li>
+				<li class="divider"></li>
+				<li><a href="credits.php">Album Credits</a></li>
+				<li><a href="siteinfo.php">About this site</a></li>
+				<li><a href="#">FAQ...coming soon</a></li>
+			  </ul>
+			</li>
+			<li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Links<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="http://twitter.com/b3ko" target="_blank">Twitter</a></li>
+				<li><a href="http://blog.atownrobots.com/" target="_blank">Blog</a></li>
+				<li><a href="https://github.com/b3ko" target="_blank">Github</a></li>
+              </ul>
+            </li>
+          </ul>
+		  <ul class="nav navbar-nav navbar-right">
+            <li><a href="tel:412-254-6364">412-254-6364</a></li>
+            <li><a href="mailto:berkowitz.jon@gmail.com" target="_blank">berkowitz.jon@gmail.com</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+	
+	<div class="container">
+		<div class="thumbnail">
+			<h2 class="text-center">Jon Berkowitz</h2>
 				
-				<address class="text-center">
-					1107 Frick Lane</br>
-					Pittsburgh, PA 15217</br>
-					412-254-6364</br>
-					<a href="mailto:berkowitz.jon@gmail.com" target="_blank">Berkowitz.jon@gmail.com</a>
-				</address>
-			</div>
-			<div>
-				<h3 class="text-center"><a href="skills.php">KEY SKILLS</a></h3>
-				<p>
+			<address class="text-center">
+				1107 Frick Lane<br />
+				Pittsburgh, PA 15217<br />
+				412-254-6364<br />
+				<a href="mailto:berkowitz.jon@gmail.com" target="_blank">Berkowitz.jon@gmail.com</a>
+				<a href="http://www.hireJonB.com" class="visible-print">www.hireJonB.com</a>
+			</address>
+		</div>
+		<div>
+			<!--<h3 class="text-center">KEY SKILLS</h3>-->
+			<p>Reliable, self-starter with a logical and analytical approach to problem solving.</p>
+		</div>	
+		<div>
+			<h3 class="text-center">EXPERIENCE</h3>
+			<dl>
+				<dt>Cultural Care Au Pair, Cambridge, MA</dt>
+				<dd>Developer, 2010-present</dd>
+				<dd>
 					<ul>
-						<li>skill 1</li>
-						<li>more stuff</li>
-						<li>even More stuff</li>
-						<li>so many skills</li>
-						<li>can you believe the skills?</li>
+						<li>Collaborate and share my expertise with company leadership to reduce business logic complexity</li>
+						<li>Utilize a variety of problem-solving and programming skills to implement new software and web-based systems and achieve a low failed ticket rate</li>
 					</ul>
-				</p>
-			</div>	
-			<div>
-				<h3 class="text-center">EXPERIENCE</h3>
-				<dl>
-					<dt><h4>Cultural Care Au Pair, Cambridge, MA</h4></dt>
-					<dd><strong><em>Developer, 2010-present</em></strong></dd>
+				</dd>	
+				<dd>Database Developer, 2008-2010<dd>
+				<dd>
 					<ul>
-						<li>job description....</li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
+						<li>Fixed logical and programmatic errors and reduced redundant code in stored procedures</li>
+						<li>Provided staff with SQL Server Reporting Services (SSRS) reports allowing them to be self-sufficient in accessing data</li>
+						<li>Implemented new internal IT procedures, resulting in reduced source control issues and overall bug count</li>
 					</ul>
+				</dd>
+				<dd>Help Desk Technician, 2006-2008</dd>
+				<dd>
+					<ul>
+						<li>Reduced the number of bugs being released by raising the standard for testing of tickets and code quality</li>
+						<li>Advocated for bug fixes rather than data fixes, which resulted in improvements in data quality</li>
+						<li>Helped staff reduce redundancy in their work using tools such as Excel functions and macros</li>
+						<li>Trained staff on how to submit comprehensive and informative help tickets</li>
+					</ul>
+				</dd>
+			</dl>	
+			<dl>
+				<dt>Sirius Satellite Radio, Los Angeles, CA</dt>
+				<dd>Recording Engineer, 2004-2005</dd>
+				<dd>
+					<ul>
+						<li>Pre-recorded, edited and mixed radio programs</li>
+					</ul>
+				</dd>
+			</dl>
+			<dl>
+				<dt>Henson Recording Studio, Hollywood, CA</dt>
+				<dd>Engineer / 2nd Engineer, 2003-2005</dd>
+				<dd>
+					<ul>
+						<li>Utilized expertise and intimate knowledge of the Henson facility to guide engineers throughout recording sessions</li>
+						<li>Ensured a smooth recording process by attending to details, planning ahead, and using a variety of problem-solving and multi-tasking skills</li>
+						<li>Expanded knowledge base of recording processes, computer programs, gear and microphones</li>
+						<li>Maintained detailed documentation of all recording settings and session notes</li>
+						<li>Provided engineers, producers and artists with a creative work environment</li>
+						<li>Represented the Henson Recording facility as the sole employee on each session</li>
+					</ul>
+				</dd>
+				<dd>Runner / 3rd Engineer, 2002-2004</dd>
+				<dd>
+					<ul>
+						<li>Gained recording session experience by working directly with engineers on a volunteer basis</li>
+						<li>Interfaced with clients and visitors through monitoring studio security, answered phones, and attending to clients' needs</li>
+						<li>Assisted with facility and equipment management by caring for musical instruments, preserving overall appearance of the studio, and managing petty cash flow </li>
+						<li>Helped engineers set up and break down equipment prior to and after recording sessions</li>
+					</ul>
+				</dd>
+			</dl>
+			
+			<dl>
+				<dt>Berklee College of Music, Boston, MA</dt>
+				<dd>Assistant Studio Manager, 2000-2002</dd>
+				<dd>
+					<ul>
+						<li>Supervised the studio operations office in a 10 studio facility</li>
+						<li>Managed and trained more than 25 work-study students per semester</li>  
+						<li>Helped students troubleshoot technical and equipment problems</li>  
+						<li>Acted as a liaison between students, faculty and staff</li>
+						<li>Engineered sessions for other college departments including live performances</li> 
+					</ul>
+				</dd>
+			</dl>
+			<dl>
+				<dt>Ever Since Day One</dt>
+				<dd>Drummer, 1997-2000</dd>
+				<dd>
+					<ul>
+						<li>Served as co-song writer and co-producer of a funk rock band</li>
+						<li>Managed tour and local show logistics, including transportation, scheduling, and merchandise sales</li>
+					</ul>
+				</dd>
+			</dl>
+		</div>
+		<div>
+			<h3 class="text-center">EDUCATION</h3>
+			<dl>
+				<dt>Elastic Search, New York, NY</dt>
+				<dd><ul class="list-unstyled"><li>Elastic Search Core Training, 2013</li></ul></dd>
+			</dl>
+			<dl>
+				<dt>ONLC Training Center</dt>
+				<dd>
+					<ul class="list-unstyled">
+						<li>Developing Web Applications with Microsoft Visual Studio 2010, 2011 <a class="hidden-print" href="/img/ONLCCertificate.pdf" target="_blank">[Certificate]</a></li>
+					</ul>
+				</dd>
+			</dl>
+			<dl>
+				<dt>Bunker Hill Community college, Charlestown, MA</dt>
+					<dd>
+						<ul class="list-unstyled">
+							<li>CIT520 - Introduction to Computer Science and Object Oriented Programming, 2007</li>
+							<li>CIT501 - Introduction to C++, 2006</li>
+						</ul>
+					</dd>
+			</dl>
+			
+			<dl>
+				<dt>Berklee College of Music, Boston, MA</dt>
+				<dd><ul class="list-unstyled"><li>Bachelor of Arts in Music Production and Engineering, 1997</li></ul></dd>
+			</dl>
+		</div>
+		<div>
+			<h3 class="text-center">SKILLS</h3>
+			<ul>
+				<li>vb.net</li>
+				<li>c#.net (mvc)</li>
+				<li>t-sql</li>
+				<li>ssrs</li>
+			</ul>
+		</div>
+		<!--<div>
+			<h3 class="text-center">HOBBIES/INTERESTS</h3>
+				<ul>
+					<li></li>
+					<li></li>
+					<li></li>
 
-					<dd><strong><em>Database Developer, 2008-2010</strong></em><dd>
-					<ul>
-						<li>job description....</li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-					</ul>
-					
-					<dd><strong><em>Help Desk Technician, 2006-2008</strong></em></dd>
-					<ul>
-						<li>job description....</li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-					</ul>
-				</dl>	
-				
-				<dl>
-					<dt><h4>Henson Recording Studio, Holloywood, CA</h4></dt>
-					<dd><strong><em>Recording Engineer, 2002-2005</strong></em></dd>
-					<ul>
-						<li>job description....</li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-					</ul>
-				</dl>
-				<dl>
-					<dt><h4>Sirius Satellite Radio, Los Angles, CA</h4></dt>
-					<dd><strong><em>Recording Engineer, 2004-2005</strong></em></dd>
-					<ul>
-						<li></li>
-						<li></li>
-					</ul>
-				</dl>
-				<dl>
-					<dt><h4>Berklee College of Music, Boston, MA</h4></dt>
-					<dd><strong><em>Assistant Studio Manager, 2000-2002</strong></em></dd>
-					<ul>
-						<li>job description....</li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-					</ul>
-				</dl>
-			</div>
-			<div>
-				<h3 class="text-center">EDUCATION</h3>
-				<dl>
-					<dt>Elastic Search, New York, NY</dt>
-					<dd>Elastic Search Core Training, 2013</dd>
-				</dl>
-				<dl>
-					<dt>ONLC Training Center</dt>
-					<dd>Developing Web Applications with Microsoft Visual Studio 2010, 2011 [<a href="/img/ONLCCertificate.pdf" target="_blank">Certificate</a>]</dd>
-				</dl>
-				<dl>
-					<dt>Bunker Hill Community college, Charlestown, MA</dt>
-					<ul>
-						<li>CIT520 - Introduction to Computer Science and Object Oriented Programming, 2007</li>
-						<li>CIT501 - Introduction to C++, 2006</li>
-					</ul>
-				</dl>
-				
-				<dl>
-					<dt>Berklee College of Music, Boston, MA</dt>
-					<dd>Bachelor of Arts in Music Production and Engineering, 1997</dd>
-				</dl>
-			</div>
-			<div>
-				<h3 class="text-center">HOBBIES/INTERESTS</h3>
-				<p>
-					<ul>
-						<li>do i want this section?????</li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-
-					</ul>
-				</p>
-			</div>	
-		  </div>
-		
-
-    </div> <!-- /container -->
+				</ul>
+		</div>-->
+</div> <!-- /container -->
 _END;
 require "footer.php";
 ?>

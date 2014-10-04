@@ -13,12 +13,12 @@ echo <<<_END
     <title>$pageTitle</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
-
+    <link href="dist/css/bootstrap.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="dist/css/navbar-fixed-top.css" rel="stylesheet">
-	<link rel="stylesheet" href="dist/tablesorter/css/theme.bootstrap.css">
-
+	<!--<link rel="stylesheet" href="dist/tablesorter/css/theme.bootstrap.css">-->
+	
+	
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
@@ -60,17 +60,24 @@ echo <<<_END
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class=$resume><a href="resume.php">Resum&eacute;</a></li>
-            <li class=$skills><a href="skills.php">Skills</a></li>
-            <li class=$quotes><a href="quotes.php">Quotes</a></li>
-			<li class=$contact><a href="contact.php">Contact</a></li>
-            <li class="dropdown $dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">More.... <b class="caret"></b></a>
+			<li class="dropdown $dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">About me<b class="caret"></b></a>
+			  <ul class="dropdown-menu">
+				<li class=$skills><a href="skills.php">Skills</a></li>
+				<li class=$quotes><a href="quotes.php">Quotes</a></li>
+				<li class=$contact><a href="contact.php">Contact</a></li>
+				<li class="divider"></li>
+				<li class=$credits><a href="credits.php">Album Credits</a></li>
+				<li class=$site><a href="siteinfo.php">About this site</a></li>
+				<li class=$faq><a href="#">FAQ....coming soon</a></li>
+			  </ul>
+			</li>
+			<li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Links<b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="http://twitter.com/b3ko" target="_blank">Twitter</a></li>
-				<li><a href="https://www.linkedin.com/pub/jon-berkowitz/94/a52/627" target="_blank">Linkedin</a></li>
-				<li><a href="credits.php">Album Credits</a></li>
-				<li class="divider"></li>
-				<li><a href="siteinfo.php">About this site</a></li>
+				<li><a href="http://blog.atownrobots.com/" target="_blank">Blog</a></li>
+				<li><a href="https://github.com/b3ko" target="_blank">Github</a></li>
               </ul>
             </li>
           </ul>
@@ -81,5 +88,14 @@ echo <<<_END
         </div><!--/.nav-collapse -->
       </div>
     </div>
+	
+	<div class="container">
+    <!-- Main component for a primary marketing message or call to action -->
+		<div class="jumbotron">
+			<div class="pull-right  hidden-print">
+				<img src="img/jon.jpg" alt="photo of one good looking dude" class="img-circle">
+			</div>
+			<h1>Jon Berkowitz</h1>
+		</div>
 _END;
 ?>

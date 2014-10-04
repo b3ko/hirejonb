@@ -1,17 +1,10 @@
 <?php
 $pageTitle = 'Quotes';
 $quotes = 'active';
+$dropdown = 'active';
 require "header.php";
 echo <<<_END
-    <div class="container">
-
-      <!-- Main component for a primary marketing message or call to action -->
-      <div class="jumbotron">
-		<div class="pull-right">
-			<img src="img/jon.jpg" alt="photo of one good looking dude" class="img-circle">
-        </div>
-		<h1>Jon Berkowitz</h1>
-		</br>
+		
 			<blockquote class="well">
 				<p>
 					"Jon has been invaluable to staff members that have questions, to me by making sure we learn from our past mistakes
@@ -105,10 +98,35 @@ echo <<<_END
 					"Give me six hours to chop down a tree and I will spend the first four sharpening the axe."
 				</p>
 				<footer>
-					-Abraham Lincoln
+					Abraham Lincoln
 				</footer>
 			</blockquote>
-		</div>
+			<blockquote class="well">
+				<p>
+					"Energy and persistence conquer all things."
+				</p>
+				<footer>
+					Benjamin Franklin
+				</footer>
+			</blockquote>
+			<blockquote class="well">
+				<p>
+					""
+				</p>
+				<footer>
+					
+				</footer>
+			</blockquote>
+			<blockquote class="well">
+				<p>
+					""
+				</p>
+				<footer>
+					
+				</footer>
+			</blockquote>
+
+
     </div> <!-- /container -->
 _END;
 require "footer.php";
